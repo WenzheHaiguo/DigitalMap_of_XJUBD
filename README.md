@@ -1,2 +1,27 @@
-# DigitalMap_of_XJUBD
-As a gift for XJU`s 100th anniversary, we make a digital map of XJUBD.
+# DigitalMap_of_XJUBD——As a gift for XJU`s 100th anniversary
+
+# DRY（Don't Repeat Yourself）原则：
+
+DRY 原则的核心思想是减少重复代码的出现，意味着每一块知识在系统中只有一
+个代表性的存在。如果你发现在代码多个地方都有相同的逻辑或者结构，那么最好是
+将这些重复部分提取成单一的组件、函数或类。这样，如果未来需要修改这部分代码，
+只需要在一处进行修改，而不必在多个地方重复修改。这有助于减少错误和维护成本。
+
+# SOLID设计原则：
+1. 单一职责原则（Single Responsibility Principle, SRP）：
+一个类应该只有一个引起它变化的原因，即一个类应该只有一项职责。这样做的
+目的是让类的职责更加明确，减少类的复杂度，提高可维护性。
+2. 开放/封闭原则（Open/Closed Principle, OCP）：
+软件实体应对扩展开放，对修改封闭。这意味着应设计模块使其能够在不修改其
+源代码的情况下进行扩展。
+3. 里氏替换原则（Liskov Substitution Principle, LSP）：
+在软件中，如果 S 是 T 的一个子类型，那么对象 T（在程序中）可以被对象 S 替
+换，而不会影响程序的逻辑。换言之，子类对象应该能够替换其基类对象被使用，而
+不需额外工作。
+4. 接口分离原则（Interface Segregation Principle, ISP）：
+客户不应该被迫依赖于它不使用的方法。ISP 鼓励将臃肿的接口拆分成更小和更具
+体的接口，这样客户端只需了解它们真正用到的接口方法。
+5. 依赖倒置原则（Dependency Inversion Principle, DIP）：
+高层模块不应该依赖于低层模块，它们都应该依赖于抽象。同样，抽象不应该依
+赖于细节，细节应该依赖于抽象。这原则在于减少类间的依赖性，通常情况下, 我们
+通过使用接口或者抽象类来实现依赖倒置，从而增强系统的灵活性和可复用性。
